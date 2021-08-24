@@ -12,7 +12,6 @@ namespace qso_site.Models
         public string RstRcvd { get; set; }
         public DateTime QsoDateTimeOn { get; set; }
         public DateTime QsoDateTimeOff { get; set; }
-        public DateTime TimeOff { get; set; }
         public string Band { get; set; }
         public string Freq { get; set; }
         public string StationCallsign { get; set; }

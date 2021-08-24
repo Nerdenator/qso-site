@@ -9,10 +9,9 @@ namespace qso_site.Models
         public string Gridsquare { get; set; }
         public string Mode { get; set; }
         public string RstSent { get; set; }
-        public string RstReceived { get; set; }
-        public DateTime QsoDate { get; set; }
-        public DateTime TimeOn { get; set; }
-        public DateTime QsoDateOff { get; set; }
+        public string RstRcvd { get; set; }
+        public DateTime QsoDateTimeOn { get; set; }
+        public DateTime QsoDateTimeOff { get; set; }
         public DateTime TimeOff { get; set; }
         public string Band { get; set; }
         public string Freq { get; set; }
